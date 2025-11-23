@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f2f5; /* Un leggero sfondo grigio */
+}
+
+#map { 
+    height: 600px; 
+}
+
+
+#stats-dashboard {
+  display: flex; /* Utilizza flexbox per allineare gli elementi orizzontalmente */
+  justify-content: space-around; /* Distribuisce lo spazio tra gli elementi */
+  align-items: center; /* Centra verticalmente gli elementi */
+  padding: 20px;
+  background-color: #f7f7fa; /* Sfondo del pannello */
+  border-radius: 15px; /* Bordi arrotondati */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+  margin: 20px auto; /* Centra il pannello e aggiunge margine */
+  max-width: 90%; /* Larghezza massima del pannello */
+}
+
+#stats-dashboard div { /* Stile per ogni singola "card" di statistica */
+  background-color: #e0e0f0; /* Sfondo leggermente più scuro per le card */
+  border-radius: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  flex: 1; /* Permette alle card di espandersi equamente */
+  margin: 0 10px; /* Spazio tra le card */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Ombra più piccola per le card */
+}
+
+#stats-dashboard h3 {
+  color: #333;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+#stats-dashboard p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+#stats-dashboard strong {
+  color: #000;
+  font-size: 1.1em;
+}
+
+#stats-dashboard span {
+  font-size: 1.6em; /* Dimensione maggiore per i valori numerici */
+  font-weight: bold;
+  color: #3f51b5; /* Colore blu per i numeri, come nell'esempio */
+  display: block; /* Ogni span su una nuova riga */
+  margin-top: 5px;
+}
